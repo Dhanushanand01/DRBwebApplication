@@ -1,0 +1,6 @@
+com\Project\Pages\Signup.class
+com\Project\Pages\Login.class
+com\Project\utilities\ExcelUtility.class
+com\Project\Pages\ProfileCreation.class
+com\Project\Constants\AutomationConstants.class
+com\Project\Pages\ProfileEdit.class

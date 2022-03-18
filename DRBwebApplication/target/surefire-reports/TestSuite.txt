@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 6.924 s <<< FAILURE! - in TestSuite
+com.Project.scripts.TestClass1.signUp  Time elapsed: 1.282 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element is not clickable at point (1239, 746)
+  (Session info: chrome=99.0.4844.51)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DHANUSHGF', ip: '192.168.29.253', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.13'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 99.0.4844.51, chrome: {chromedriverVersion: 98.0.4758.80 (7f0488e8ba0d8..., userDataDir: C:\Users\dhanu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50559}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 356a3d7a3b71777dcd9fb7fa73768567
+	at com.Project.scripts.TestClass1.signUp(TestClass1.java:20)
+
+com.Project.scripts.TestClass.loginadmin  Time elapsed: 0.005 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.Project.scripts.TestClass.loginadmin(TestClass.java:63)
+
+com.Project.scripts.TestClass.loginuser  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.Project.scripts.TestClass.loginuser(TestClass.java:36)
+
+com.Project.scripts.TestClass.loginwrong  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.Project.scripts.TestClass.loginwrong(TestClass.java:88)
+
+com.Project.scripts.TestClass.websitecheck  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException
+	at com.Project.scripts.TestClass.websitecheck(TestClass.java:26)
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="com.Project.scripts.TestClass1">
+        <methods>
+          <include name="signUp"/>
+          <include name="quitBrowser"/>
+          <include name="onSetup"/>
+        </methods>
+      </class> <!-- com.Project.scripts.TestClass1 -->
+      <class name="com.Project.scripts.TestClass">
+        <methods>
+          <include name="loginwrong"/>
+          <include name="loginadmin"/>
+          <include name="loginuser"/>
+          <include name="quitBrowser"/>
+          <include name="websitecheck"/>
+          <include name="onSetup"/>
+        </methods>
+      </class> <!-- com.Project.scripts.TestClass -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
